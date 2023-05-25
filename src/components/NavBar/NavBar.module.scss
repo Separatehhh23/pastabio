@@ -1,0 +1,21 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #151019;
+    padding: 1rem;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin-right: 1rem;
+  }
