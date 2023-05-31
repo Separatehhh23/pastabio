@@ -19,7 +19,7 @@ function LandingPage() {
             Juego
           </button>
         </a>
-        <a href=""><button className={styles.button} id="presentacion-button" type="button" onClick={() => presentacionPressed()}>
+        <a href="/presentations/presentationSelector"><button className={styles.button} id="presentacion-button" type="button">
           Presentacion
           </button>
         </a>
