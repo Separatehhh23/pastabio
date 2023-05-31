@@ -32,8 +32,9 @@ const NavBar: React.FC = () => {
             <li>
               <a href="/contact">Contact</a>
             </li>
-            <li>
-              <a href="/test">Test</a></li>
+            {/*<li>
+              <a href="/test">Test</a>
+            </li> */}
           </ul>
         </nav>
         <nav className={styles.nav2}>
