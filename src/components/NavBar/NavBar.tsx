@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './NavBar.module.scss';
+import Image from 'next/image';
 
 import ArrowIcon from '../../../public/svgs/arrow.svg';
 import BellIcon from '../../../public/svgs/bell.svg';
@@ -11,8 +12,13 @@ import MessengerIcon from '../../../public/svgs/messenger.svg';
 import PlusIcon from '../../../public/svgs/plus.svg';
 import NextIcon from '../../../public/svgs/next.svg';
 import VercelIcon from '../../../public/svgs/vercel.svg';
+import GearIcon from '../../../public/images/cog.png';
 
 const NavBar: React.FC = () => {
+    function gearButtonClicked() {
+      console.log('gear button clicked');
+    }
+
     return (
       <div className='NavBar'>
         <nav className={styles.nav}>
@@ -34,7 +40,10 @@ const NavBar: React.FC = () => {
           <ul className={styles.navButons}>
             <li>
               <button>
-                
+              <Image
+                src={GearIcon}
+                alt="Gear"
+              />
               </button>
             </li>
           </ul>
