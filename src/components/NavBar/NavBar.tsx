@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './NavBar.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import ArrowIcon from '../../../public/svgs/arrow.svg';
 import BellIcon from '../../../public/svgs/bell.svg';
@@ -24,17 +25,14 @@ const NavBar: React.FC = () => {
         <nav className={styles.nav}>
           <ul className={styles.navList}>
             <li>
-              <a href="/">Home</a>
+              <a href="/">Inicio</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link href="/about/about">Info</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link href="/contact">Contactar</Link>
             </li>
-            {/*<li>
-              <a href="/test">Test</a>
-            </li> */}
           </ul>
         </nav>
         <nav className={styles.nav2}>

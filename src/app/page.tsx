@@ -14,7 +14,7 @@ function LandingPage() {
     <div className={styles.container}>
       <NavBar />
       <h1 className={styles.heading}>PASTABIO</h1>
-      <p className={styles.text}>Estos botones no hacen nada, son de prueba</p>
+      <p className={styles.text}>Hola</p>
       <div className={styles.buttonContainer}>
         <Link href="">
           <button className={styles.button} type="button">
