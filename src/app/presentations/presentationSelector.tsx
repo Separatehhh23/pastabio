@@ -1,11 +1,7 @@
 import React from 'react';
-import layout from '../../app/layout';
 import styles from '../../styles/PresentationSelector.module.scss';
 import NavBar from '@/components/NavBar/NavBar';
 import Link from 'next/link';
-
-// Call layout to get the global css varibles
-layout;
 
 function PresentacionSelector() {
     return (

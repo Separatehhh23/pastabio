@@ -1,5 +1,4 @@
 import React from 'react';
-import layout from '../../app/layout';
 import styles from '../../styles/About.module.scss';
 import NavBar from '@/components/NavBar/NavBar';
 import Link from 'next/link';
@@ -14,9 +13,6 @@ import CssIcon from '../../../public/images/css.png';
 import HtmlIcon from '../../../public/images/html.png';
 import SassIcon from '../../../public/images/sass.png';
 import TsxIcon from '../../../public/images/tsx.png';
-
-// Call layout to get the global css varibles
-layout;
 
 function aboutPage() {
     return(
