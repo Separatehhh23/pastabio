@@ -18,7 +18,7 @@ function LandingPage() {
             Juego
           </button>
         </Link>
-        <Link href="/presentations/presentationSelector"><button className={styles.button} id="presentacion-button" type="button">
+        <Link href="./presentations"><button className={styles.button} id="presentacion-button" type="button">
           Presentacion
           </button>
         </Link>
