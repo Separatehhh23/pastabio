@@ -1,0 +1,55 @@
+$bg-color: #151019;
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $bg-color;
+    padding: 1rem;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+  }
+  
+.nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+.nav ul li {
+    margin-right: 1rem;
+  }
+
+.nav2 {
+  position: fixed;
+    top: 0;
+    right: 0;
+    background-color: $bg-color;
+    padding: 1rem;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+.navButons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navButons li {
+  margin-right: 1rem;
+}
+
+.navButons button {
+  background-color: #211e22;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
